@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 1965px;
+  /* height: 100vh; */
+  background-image: url(/frontreto1/img/fondo.jpg);
+}
+
+form {
+  height: auto;
+  background: #cbcbcb40;
+  padding: 35px;
+  border: 4px solid #ffffff;
+  border-radius: 30px;
+  padding-top: 77px;
+  margin: 0px auto;
+}
+#title-form
+{
+  text-align: center;
+  font-size: 25px;
+  color: #7c85ff;
+  /*font-weight: bold;*/
+}
+
+
+.text-info {
+  color: #5f6bff!important;
+}
+
+.btn-info {
+  color: #fff;
+  width: 145px;
+  background-color: #5f6bff;
+}

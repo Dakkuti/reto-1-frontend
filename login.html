@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <link rel="stylesheet" href="css/login.css?v=<?php echo time(); ?>" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Acceso al Sistema</title>
+</head>
+
+<body>
+    <div id="login">
+
+    </div>
+
+<div class="grid">
+    <div class="row">
+        <div class="col">
+            
+            <form action="login.php" method="POST">
+                    <p id="title-form">Iniciar sesión</p>
+                    <div class="mb-3">
+                      <label for="useremail" class="form-label">Correo Eléctronico:</label>
+                      <input type="email" name="useremail" class="form-control" id="useremail"  required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="password" class="form-label">Contraseña</label>
+                      <input type="password" name="password" class="form-control" id="password" required>
+                    </div>
+
+                      <p class="form-check-label" for="exampleCheck1">
+                          ¿Aún no tienes cuenta? 
+                          <a href="registro.html"> Registrate</a>
+                    </p>
+                        </br>
+                    <button type="submit" class="btn">Ingresar</button>
+              </form>
+
+        </div>
+    
+        <div class="col contenedor">
+          
+            <img src="img/cenicienta logo.png" id="contenedor-img"/>
+
+            <p>¡Llevamos 10 años de trayectoria en la venta de productos de aseo!</p>
+        </div>
+
+      </div>
+    </div>
+
+</body>
+
+</html>

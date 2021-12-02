@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima+Madurai:wght@300&family=Cookie&family=Courgette&family=Merienda&family=Neucha&family=Pacifico&family=Poppins:wght@200&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 1965px;
+  /* height: 100vh; */
+  background-image: url(/frontreto1/img/fondo.jpg);
+}
+
+
+.grid{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.row{
+  
+  flex-flow: wrap-reverse;
+}
+
+form {
+  width: 415px;
+  height: 540px;
+  background: #ffffff7a;
+  padding: 50px;
+  border: 4px solid #ffffff;
+  border-radius: 30px;
+  padding-top: 75px;
+  margin: 0px auto;
+  position: inherit;
+  top: -50px;
+  left: 90px;
+  color: #727272;
+  font-weight: 500;
+}
+#title-form {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 40px;
+ /* border-bottom: 3px solid #d9d9d9;*/
+}
+.col.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: 106px;
+}
+
+.col.contenedor h2{
+
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#contenedor-img {
+  width: 390px;
+  height: 410px;
+  margin-top: -100px;
+}
+
+.btn {
+  background: #ef9f3f;
+  display: flex;
+  margin: 24px auto;
+  color: white;
+  width: 200px;
+  justify-content: center;
+}
+
+.col.contenedor p {
+    font-size: 25px;
+    color: #626262;
+    margin-top: 20px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-right: -15px; */
+  margin-left: -105px;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+  #contenedor-img {
+    width: 310px;
+    height: 285px;
+    margin-left: 70px;
+  }
+
+  .col.contenedor p {
+    margin-left: 80px;
+    margin-bottom: 75px;
+  }
+}
+@media only screen and (max-width: 375px) {
+
+  #contenedor-img {
+    margin-left: 55px;
+  }
+
+  .col.contenedor p {
+    margin-left: 60px;
+    margin-bottom: 75px;
+
+  }
+
+  form {
+    left: 73px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  #contenedor-img {
+    margin-left: 10px;
+  }
+
+  .col.contenedor p {
+    margin-left: 8px;
+    margin-bottom: 85px;
+
+  }
+
+  form {
+    left: 55px;
+  }
+}
